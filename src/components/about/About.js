@@ -7,12 +7,13 @@ import {info} from "../../info/Info";
 
 export default function About() {
     const firstName = info.firstName.toLowerCase()
+    const lastName = info.lastName.toLowerCase()
 
     function aboutMeText() {
         return <>
             <p><span style={{color: info.baseColor}}>{firstName}{info.lastName.toLowerCase()} $</span> cat
-                about{firstName} </p>
-            <p><span style={{color: info.baseColor}}>about{firstName} <span
+                about{lastName} </p>
+            <p><span style={{color: info.baseColor}}>about{lastName} <span
                 className={Style.green}>(main)</span> $ </span>
                 {info.bio}
             </p>
@@ -39,12 +40,12 @@ export default function About() {
     function miscText() {
         return <>
             <p><span style={{color: info.baseColor}}>{firstName}{info.lastName.toLowerCase()} $</span> cd
-                hobbies/interests</p>
-            <p><span style={{color: info.baseColor}}>hobbies/interests <span
+                work</p>
+            <p><span style={{color: info.baseColor}}>work <span
                 className={Style.green}>(main)</span> $</span> ls</p>
             <ul>
-                {info.hobbies.map((hobby, index) => (
-                    <li key={index}><Box component={'span'} mr={'1rem'}>{hobby.emoji}</Box>{hobby.label}</li>
+                {info.works.map((work, index) => (
+                    <li key={index}>{work.company}</li>
                 ))}
             </ul>
         </>;
