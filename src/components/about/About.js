@@ -45,7 +45,7 @@ export default function About() {
                 className={Style.green}>(main)</span> $</span> ls</p>
             <ul>
                 {info.works.map((work, index) => (
-                    <li key={index}>{work.company}</li>
+                    <li key={index}>{work.company}<br /><Box component={'span'} mr={'1rem'}>{` (${work.duration})`}</Box></li>
                 ))}
             </ul>
         </>;

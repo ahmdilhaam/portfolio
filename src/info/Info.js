@@ -50,6 +50,21 @@ export const info = {
     ],
     socials: [
         {
+            link: "https://wa.me/6282110050655",
+            icon: "fa fa-whatsapp",
+            label: 'whatsapp'
+        },
+        {
+            link: "https://www.linkedin.com/in/a-ilham15",
+            icon: "fa fa-linkedin",
+            label: 'linkedin'
+        },
+        {
+            link: "https://github.com/ahmdilhaam",
+            icon: "fa fa-github",
+            label: 'github'
+        },
+        {
             link: "https://www.facebook.com/ahmad.ilham1505",
             icon: 'fa fa-facebook',
             label: 'facebook'
@@ -59,47 +74,29 @@ export const info = {
             icon: 'fa fa-instagram',
             label: 'instagram'
         },
-        {
-            link: "https://github.com/ahmdilhaam",
-            icon: "fa fa-github",
-            label: 'github'
-        },
-        {
-            link: "https://www.linkedin.com/in/a-ilham15",
-            icon: "fa fa-linkedin",
-            label: 'linkedin'
-        },
-        // {
-        //     link: "https://twitter.com",
-        //     icon: "fa fa-twitter",
-        //     label: 'twitter'
-        // }
-// Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
-// Just change the links so that they lead to your social profiles.
-
     ],
-    bio: "Hello! I'm Ilham. I'm a Software Engineer for GUE. I'm studying at STT Terpadu Nurul Fikri, I enjoy long walks on the beach, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
+    bio: "Hello! I'm Ilham. I'm a Software Engineer for GUE. I'm studying at STT Terpadu Nurul Fikri. I am a fan of technology, programming, and photography. I'm also interested in reading and movies. That's why, you should hire me!",
     skills:
         {
-            proficientWith: ['javascript', 'react', 'git', 'github', 'gitlab', 'bitbucket', 'bootstrap', 'html5', 'css3'],
-            exposedTo: ['nodejs', 'php', 'codeigniter', 'laravel', 'redis']
+            proficientWith: ['javascript', 'git', 'github', 'gitlab', 'bitbucket', 'bootstrap', 'html5', 'nodejs', 'php', 'sql', 'codeigniter', 'laravel'],
+            exposedTo: ['react', 'nextjs', 'css3', 'redis', 'mongodb']
         }
     ,
     works: [
         {
-            company: 'PT Global Urban Essensial',
+            company: '• PT Global Urban Essensial',
             duration: 'January 2020 - Now'
         },
         {
-            company: 'PT Alumagubi Raya Indonesia',
+            company: '• PT Alumagubi Raya Indonesia',
             duration: 'September 2018 - December 2019'
         },
         {
-            company: 'PT Indonesia Comnets Plus (ICON+) (Intern)',
+            company: '• ICON+ (Intern)',
             duration: 'April 2018 - September 2018'
         },
         {
-            company: 'PT PLN TJBB (Intern)',
+            company: '• PT PLN TJBB (Intern)',
             duration: 'January 2017 - March 2018'
         }
 // Same as above, change the emojis to match / relate to your hobbies or interests.
@@ -107,25 +104,25 @@ export const info = {
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
         {
-            title: "Project 1",
+            title: "Teman Diabetes",
             live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
             source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
             image: mock1
         },
         {
-            title: "Project 2",
+            title: "Teman Bumil",
             live: "https://paytonpierce.dev",
             source: "https://github.com/paytonjewell",
             image: mock2
         },
         {
-            title: "Project 3",
+            title: "D2D (Doctor to Doctor)",
             live: "https://paytonpierce.dev",
             source: "https://github.com/paytonjewell",
             image: mock3
         },
         {
-            title: "Project 4",
+            title: "Singtel IoT",
             live: "https://paytonpierce.dev",
             source: "https://github.com/paytonjewell",
             image: mock4
