@@ -105,30 +105,42 @@ export const info = {
     portfolio: [ // This is where your portfolio projects will be detailed
         {
             title: "Teman Diabetes",
-            live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            live: "https://temandiabetes.com", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
             source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
             image: mock1
         },
         {
             title: "Teman Bumil",
-            live: "https://paytonpierce.dev",
+            live: "https://www.temanbumil.com",
             source: "https://github.com/paytonjewell",
             image: mock2
         },
         {
             title: "D2D (Doctor to Doctor)",
-            live: "https://paytonpierce.dev",
+            live: "https://www.d2d.co.id",
             source: "https://github.com/paytonjewell",
             image: mock3
         },
         {
-            title: "Singtel IoT",
+            title: "Singtel IoT Sense",
             live: "https://paytonpierce.dev",
             source: "https://github.com/paytonjewell",
             image: mock4
         },
         {
-            title: "Project 5",
+            title: "Aminef ~ Portal Database Alumni",
+            live: "https://paytonpierce.dev",
+            source: "https://github.com/paytonjewell",
+            image: mock5
+        },
+        {
+            title: "Notariat PPJKN",
+            live: "https://paytonpierce.dev",
+            source: "https://github.com/paytonjewell",
+            image: mock5
+        },
+        {
+            title: "Desain Industri",
             live: "https://paytonpierce.dev",
             source: "https://github.com/paytonjewell",
             image: mock5
