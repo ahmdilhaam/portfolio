@@ -85,19 +85,19 @@ export const info = {
     works: [
         {
             company: '• PT Global Urban Essensial',
-            duration: 'January 2020 - Now'
+            duration: 'Jan 2020 - Present'
         },
         {
             company: '• PT Alumagubi Raya Indonesia',
-            duration: 'September 2018 - December 2019'
+            duration: 'Sep 2018 - Dec 2019'
         },
         {
             company: '• ICON+ (Intern)',
-            duration: 'April 2018 - September 2018'
+            duration: 'Apr 2018 - September 2018'
         },
         {
             company: '• PT PLN TJBB (Intern)',
-            duration: 'January 2017 - March 2018'
+            duration: 'Jan 2017 - Mar 2017'
         }
 // Same as above, change the emojis to match / relate to your hobbies or interests.
 // You can also remove the emojis if you'd like, I just think they look cute :P
@@ -131,16 +131,22 @@ export const info = {
             title: "Aminef ~ Portal Database Alumni",
             live: "https://paytonpierce.dev",
             source: "https://github.com/paytonjewell",
-            image: mock5
+            image: mock2
         },
         {
             title: "Notariat PPJKN",
             live: "https://paytonpierce.dev",
             source: "https://github.com/paytonjewell",
-            image: mock5
+            image: mock3
         },
         {
             title: "Desain Industri",
+            live: "https://paytonpierce.dev",
+            source: "https://github.com/paytonjewell",
+            image: mock4
+        },
+        {
+            title: "Dashboard Monitoring Kuasa Kerja",
             live: "https://paytonpierce.dev",
             source: "https://github.com/paytonjewell",
             image: mock5
