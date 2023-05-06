@@ -41,7 +41,7 @@ export const info = {
         },
         {
             emoji: "💼",
-            text: "Software Engineer at GUE"
+            text: "Software Engineer at <a href='https://gueecosystem.com/' target='_blank'>GUE</a>"
         },
         {
             emoji: "📧",
@@ -49,11 +49,11 @@ export const info = {
         }
     ],
     socials: [
-        {
-            link: "https://wa.me/6282110050655",
-            icon: "fa fa-whatsapp",
-            label: 'whatsapp'
-        },
+        // {
+        //     link: "https://wa.me/6282110050655",
+        //     icon: "fa fa-whatsapp",
+        //     label: 'whatsapp'
+        // },
         {
             link: "https://www.linkedin.com/in/a-ilham15",
             icon: "fa fa-linkedin",
@@ -75,11 +75,11 @@ export const info = {
             label: 'instagram'
         },
     ],
-    bio: "Hello! I'm Ilham. I'm a Software Engineer for GUE. I'm studying at STT Terpadu Nurul Fikri. I am a fan of technology, programming, and photography. I'm also interested in reading and movies. That's why, you should hire me!",
+    bio: "Hello! I'm Ilham. I'm a Software Engineer for GUE. I'm studying at STT Terpadu Nurul Fikri. I am a fan of technology, programming, and photography. That's why, you should hire me!",
     skills:
         {
             proficientWith: ['javascript', 'git', 'github', 'gitlab', 'bitbucket', 'bootstrap', 'html5', 'nodejs', 'php', 'sql', 'codeigniter', 'laravel'],
-            exposedTo: ['react', 'nextjs', 'css3', 'redis', 'mongodb']
+            exposedTo: ['reactjs', 'nextjs', 'css3', 'redis', 'mongodb']
         }
     ,
     works: [
